@@ -20,4 +20,4 @@ docker run --rm --name real -e "OTP_CODE=YOUROTPCODE" $USER/alpine-otp
 ```
 
 # Notes
-I've also pushed this image to the public docker registry (docker pull edify42/alpine-otp:LATEST) which can be reused
+I've also pushed this image to the public docker registry (docker pull tedk42/alpine-otp:LATEST) which can be reused
