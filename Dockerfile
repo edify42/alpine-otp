@@ -5,4 +5,4 @@ ENV OTP_CODE base32secret3232
 
 ADD runner.py .
 
-CMD python runner.py
+CMD hwclock -s; python runner.py
